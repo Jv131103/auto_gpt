@@ -32,6 +32,7 @@ Aqui está alguns exemplos de "Hello, World!" para diferentes linguagens de prog
 
 ```python
 print('Hello, World!')
+```
 
 ### 2. C:
 ```C
@@ -43,4 +44,29 @@ int main(){
     return 0;
     system("pause");
 }
+```
+### 5. C++:
+```C++
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}
+
+```
+
+### 9. SQL:
+```SQL
+CREATE TABLE hello(
+    hello_ VARCHAR(15)
+);
+
+INSERT INTO hello(hello_)
+VALUES("Hello, World!");
+
+SELECT * FROM hello;
+```
+
+
 
