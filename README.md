@@ -1,41 +1,34 @@
-# auto_gpt
-Projeto de teste de automatização
-Hello, World! em Diferentes Linguagens
-Este é um pequeno programa Python que permite a você visualizar e executar o famoso "Hello, World!" em várias linguagens de programação. O programa suporta as seguintes linguagens:
+# Código Hello, World!
 
-Python
-C
-C#
-PHP
-C++
-Java
-JavaScript
-Rust
-SQL
-Shell Script (Linux)
-Batch Script (CMD/DOS Windows)
-Você pode escolher a linguagem que deseja visualizar e executar, e o programa abrirá o código-fonte correspondente em um editor de texto ou em um navegador, dependendo da sua escolha.
+Este é um código Python que permite aos usuários escolher uma linguagem de programação e, em seguida, exibe o famoso "Hello, World!" para a linguagem selecionada. O código oferece duas opções: você pode ver a saída no navegador da web ou na máquina local. A seguir, um guia rápido de como usar o código e suas funcionalidades.
 
-Requisitos
-Python 3.x
-Bibliotecas Python: pyautogui, selenium, keyboard
-Como Usar
-Clone este repositório em sua máquina local.
+## Instruções de Uso
 
-Certifique-se de ter todas as bibliotecas Python instaladas executando o seguinte comando:
+1. **Execução do Código:**
 
-Copy code
-pip install pyautogui selenium keyboard
-Execute o programa com o seguinte comando:
+   Certifique-se de que você possui todas as dependências instaladas, incluindo Python, Selenium e pyautogui. Você também precisa de um driver do Chrome compatível com a versão do seu navegador.
 
-Copy code
-python hello_world.py
-Siga as instruções no terminal para escolher a linguagem e o local de execução (na máquina ou no navegador).
+2. **Escolha a Linguagem:**
 
-Desfrute de ver e executar "Hello, World!" em diferentes linguagens!
+   Execute o código e, quando solicitado, digite o número ou o nome da linguagem de programação que você deseja ver (por exemplo, "python" ou "1" para Python). Você pode digitar "oo" para ver detalhes sobre as linguagens disponíveis.
 
-Contribuições
-Contribuições são bem-vindas! Se você deseja adicionar suporte para mais linguagens ou fazer melhorias no código, sinta-se à vontade para criar um fork deste repositório e enviar um pull request.
+3. **Escolha a Plataforma:**
 
-Autor
-[Seu Nome]
+   Após escolher a linguagem, você será solicitado a escolher entre duas opções:
+
+   - "WEB": Isso abrirá um navegador da web (em modo anônimo) e exibirá o "Hello, World!" no site https://pt.anotepad.com/. Você verá o resultado no navegador.
+
+   - "MAQ": Isso abrirá o Bloco de Notas (ou o aplicativo de edição de texto padrão do seu sistema) e exibirá o "Hello, World!" no editor. Em seguida, o código fecha o Bloco de Notas.
+
+4. **Sair do Programa:**
+
+   Para sair do programa, digite "!" ou "0" quando for solicitado a escolher a linguagem. Isso encerrará a execução.
+
+## Exemplos de Códigos Hello, World!
+
+Aqui está um exemplos de "Hello, World!" para diferentes linguagens de programação suportadas pelo código:
+
+### 1. Python:
+
+```python
+print('Hello, World!')
