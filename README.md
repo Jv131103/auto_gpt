@@ -26,9 +26,21 @@ Este é um código Python que permite aos usuários escolher uma linguagem de pr
 
 ## Exemplos de Códigos Hello, World!
 
-Aqui está um exemplos de "Hello, World!" para diferentes linguagens de programação suportadas pelo código:
+Aqui está alguns exemplos de "Hello, World!" para diferentes linguagens de programação suportadas pelo código:
 
 ### 1. Python:
 
 ```python
 print('Hello, World!')
+
+### 2. C:
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    printf("Hello, World!");
+    return 0;
+    system("pause");
+}
+
